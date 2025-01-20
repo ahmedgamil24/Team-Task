@@ -1,3 +1,8 @@
+
+function substraction(a , b){
+    return a - b;
+}
+
 function isNumber(value) {
     return typeof value === "number" && !isNaN(value);
 }
@@ -5,3 +10,4 @@ function isNumber(value) {
 function add (a,b){
     return a+b;
 };
+
